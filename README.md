@@ -7,8 +7,6 @@
 
 Una mini red social desarrollada con **Next.js 15**, **TypeScript**, **Redux Toolkit** y **TailwindCSS 4**. Permite a los usuarios autenticarse, crear publicaciones con imágenes o videos y comentar en tiempo real (simulado).
 
-![social-share-cover](https://user-images.githubusercontent.com/merlincosentino/social-share-app/preview.png)
-
 ---
 
 ## 🚀 Demo
