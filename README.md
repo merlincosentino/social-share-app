@@ -13,7 +13,7 @@ Una mini red social desarrollada con **Next.js 15**, **TypeScript**, **Redux Too
 
 Visita la demo desplegada en Vercel:
 
-🔗 **[https://social-share-app.vercel.app](https://social-share-app.vercel.app)**
+🔗 **[https://social-share-app-nine.vercel.app](https://social-share-app.vercel.app)**
 
 🧑‍💻 **Credenciales de demostración:**
 
