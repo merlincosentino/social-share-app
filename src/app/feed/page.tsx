@@ -1,14 +1,14 @@
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/authOptions";
 import { redirect } from "next/navigation";
-import LoginPageClient from "./LoginPageClient";
+import FeedClient from "./FeedClient";
 
-export default async function LoginPage() {
+export default async function FeedPage() {
   const session = await getServerSession(authOptions);
 
-  if (session?.user) {
-    redirect("/feed");
+  if (!session) {
+    redirect("/");
   }
 
-  return <LoginPageClient />;
+  return <FeedClient />;
 }
